@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: matterbridge
+name: Matterbridge
+tagline: Matter plugin manager
+icon: https://matterbridge.io/matterbridge.svg
+category: Smart Home
+version: "1.0.0"
+port: 8283
+description: >-
+  Matterbridge Docker configuration for managing Matter devices and plugins.
+developer: Luligu
+website: https://matterbridge.io
+submitter: Luligu
+submission: https://github.com/Luligu/matterbridge
+repo: https://github.com/Luligu/matterbridge
+support: https://github.com/Luligu/matterbridge/discussions
+gallery: []
+releaseNotes: >-
+  Initial Umbrel app definition.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

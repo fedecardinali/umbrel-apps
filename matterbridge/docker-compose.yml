@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    network_mode: host
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: 127.0.0.1
+      APP_PORT: 8283
+    
+  matterbridge:
+    image: luligu/matterbridge:latest
+    network_mode: host
+    restart: always
+    volumes:
+      - ./data/Matterbridge:/root/Matterbridge
+      - ./data/.matterbridge:/root/.matterbridge
+      - ./data/.mattercert:/root/.mattercert
