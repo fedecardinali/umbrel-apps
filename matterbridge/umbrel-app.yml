@@ -3,7 +3,7 @@ id: matterbridge
 name: Matterbridge
 tagline: Matter plugin manager
 icon: https://matterbridge.io/matterbridge.svg
-category: Smart Home
+category: automation
 version: "1.0.0"
 port: 8283
 description: >-
