@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: matterbridge
+id: ventrilo-matterbridge
 name: Matterbridge
 tagline: Matter plugin manager
 icon: https://matterbridge.io/matterbridge.svg
